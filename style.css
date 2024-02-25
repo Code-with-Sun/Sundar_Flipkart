@@ -1,0 +1,119 @@
+body{
+    background-color: aqua;
+    position: relative;
+}
+.item {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 600px ;
+    height: 650px;
+    width: 500px;
+    background-color: rgb(255, 251, 251);
+}
+
+
+.item img{
+    /* position: relative; */
+    height: 250px;
+    width: 250px;
+    margin: 80px 0px 0px 130px;
+}
+.item .wish {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    z-index: 5;
+    top: -380px;
+    left: 310px;
+    opacity: 50%;
+}
+.ad{
+    color: rgba(99, 97, 97, 0.475);
+    font-size: 20px;
+    position: relative;
+    left: -140px;
+    font-weight: bold;
+    margin: 2px;
+}
+.item p{
+    color: rgba(7, 87, 192, 0.84);
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    font-family: 'Poppins';
+    padding: 0%;
+    margin: 1%;
+}
+.item .green{
+    position: relative;
+    width: 50px;
+    height: 30px;
+    background-color: green;
+    left: 20px;
+    border-radius: 3px;
+    color: white;
+    font-family: 'Poppins';
+    padding: 3px 2px 0px 10px;
+    margin: 0px 0px 4px 0px;
+}
+.item .green img{
+    position: relative;
+    top: -103px;
+    left: -100px;
+    height: 20px;
+    width: 20px;
+}
+.item .green .num{
+    color:  rgba(99, 97, 97, 0.475);
+    position: relative;
+    top: -130px;
+    left: 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.item .now {
+    position: relative;
+    left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.item .ago {
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+    text-decoration: line-through;
+    font-weight: bold;
+    color: rgba(99, 97, 97, 0.475);
+}
+.item .off{
+    position: relative;
+    left: 40px;
+    font-size: 20px;
+    color: rgb(23, 150, 23);
+}
+
+.item .cart{
+    position: relative;
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    border: 2px solid orange;
+    top: 40px;
+    left: -80px;
+}
+
+.item .buy{
+    position: relative;
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: orangered;
+    border-radius: 5px;
+    border: 2px solid orangered;
+    top: 40px;
+    left: 10px;
+}
